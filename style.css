@@ -326,6 +326,7 @@
 }
 .firstCard{
     position: relative;
+    background-color: white;
 }
 .firstCard>.firstCardImage{
     background-image: url('./src/backpic.png');
@@ -389,6 +390,351 @@
     letter-spacing: 0.65px;
     line-height: 25px;
 }
+.firstCardComment2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px 20px 20px;
+    border: 1px solid #e3e3e3;
+}
+.firstCardComment2Left {
+    display: flex;
+}
+.firstCardComment2LeftImg {
+    margin-right: 5px;
+}
+.firstCardComment2AuthorName {
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.firstCardComment2Date {
+    font-size: 12px;
+    color: #878787;
+    white-space: break-spaces;
+    letter-spacing: 0.65px;
+    margin-left: 3px;
+}
+
+.secondCard {
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+}
+.secondCardImage{
+    background-image: url('./src/secondCardImage.png');
+    height: 165px;
+    width: 260px;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.secondCardPause {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.secondCardLifestyle {
+    color: white;
+    font-size: 12px;
+    padding-left: 17px;
+    padding-bottom: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+}
+.secondCardLikeAndComment {
+    display: flex;
+    padding-right: 20px;
+    padding-bottom: 17px;
+}
+.secondCardComment,.secondCardLike {
+    display: flex;
+}
+.secondCardComment>img,.secondCardLike>img {
+    width: 17px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.secondCardLikeTitle {
+    color: white;
+    font-size: 13px;
+}
+.secondCardFooter{
+    width: calc(820px - 260px);
+}
+.secondCardFooterTop {
+    padding-top: 10px;
+    border-bottom: 1px solid #e3e3e3;
+    padding-left: 17px;
+}
+.secondCardFooterHeading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: 0.39px;
+    width: 310px;
+    margin-left: 2px;
+}
+.secondCardFooterSubject {
+    line-height: 22px;
+    padding-bottom: 15px;
+}
+.secondCardFooterSubject > p {
+    font-family: 'Open sans',sans-serif;
+    font-size: 14px;
+}
+.secondCardFooterSubject > p:first-child {
+    letter-spacing: 0.65px;
+}
+.secondCardFooterSubject > p:nth-child(2) {
+    letter-spacing: 0.6px;
+}
+.secondCardComment2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 20px;
+    align-items: center;
+}
+.secondCardComment2Left {
+    display: flex;
+}
+.secondCardComment2LeftImg {
+    margin-right: 5px;
+}
+.secondCardComment2AuthorName {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px 5px 6px 7px;
+}
+.secondCardComment2Date {
+    font-size: 12px;
+    color: #878787;
+    white-space: break-spaces;
+    letter-spacing: 0.65px;
+    margin-left: 5px;
+}
+.secondCardComment2Right{
+    margin: 1px 2px 0 0;
+}
+
+.thirdCard {
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+}
+.thirdCardImage{
+    background-image: url('./src/thirdCardImage.png');
+    height: 165px;
+    width: 260px;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.thirdCardPause {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.thirdCardLifestyle {
+    color: white;
+    font-size: 12px;
+    padding-left: 17px;
+    padding-bottom: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+}
+.thirdCardLikeAndComment {
+    display: flex;
+    padding-right: 20px;
+    padding-bottom: 17px;
+}
+.thirdCardComment,.thirdCardLike {
+    display: flex;
+}
+.thirdCardComment>img,.thirdCardLike>img {
+    width: 17px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.thirdCardLikeTitle {
+    color: white;
+    font-size: 13px;
+}
+.thirdCardFooter{
+    width: calc(820px - 260px);
+}
+.thirdCardFooterTop {
+    padding-top: 10px;
+    border-bottom: 1px solid #e3e3e3;
+    padding-left: 17px;
+}
+.thirdCardFooterHeading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: 0.45px;
+    width: 375px;
+    margin-left: 2px;
+}
+.thirdCardFooterSubject {
+    line-height: 22px;
+    padding-bottom: 15px;
+}
+.thirdCardFooterSubject > p {
+    font-family: 'Open sans',sans-serif;
+    font-size: 14px;
+}
+.thirdCardFooterSubject > p:first-child {
+    letter-spacing: 0.65px;
+}
+.thirdCardFooterSubject > p:nth-child(2) {
+    letter-spacing: 0.6px;
+}
+.thirdCardComment2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 20px;
+    align-items: center;
+}
+.thirdCardComment2Left {
+    display: flex;
+}
+.thirdCardComment2LeftImg {
+    margin-right: 5px;
+}
+.thirdCardComment2AuthorName {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px 5px 6px 7px;
+}
+.thirdCardComment2Date {
+    font-size: 12px;
+    color: #878787;
+    white-space: break-spaces;
+    letter-spacing: 0.65px;
+    margin-left: 5px;
+}
+
+
+.thirdCardComment2Right{
+    margin: 1px 2px 0 0;
+}
+.fourthCard {
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+}
+.fourthCardImage{
+    background-image: url('./src/fourthCardImage.png');
+    height: 165px;
+    width: 260px;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.fourthCardPause {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.fourthCardLifestyle {
+    color: white;
+    font-size: 12px;
+    padding-left: 17px;
+    padding-bottom: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+}
+.fourthCardLikeAndComment {
+    display: flex;
+    padding-right: 20px;
+    padding-bottom: 17px;
+}
+.fourthCardComment,.fourthCardLike {
+    display: flex;
+}
+.fourthCardComment>img,.fourthCardLike>img {
+    width: 17px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.fourthCardLikeTitle {
+    color: white;
+    font-size: 13px;
+}
+.fourthCardFooter{
+    width: calc(820px - 260px);
+}
+.fourthCardFooterTop {
+    padding-top: 10px;
+    border-bottom: 1px solid #e3e3e3;
+    padding-left: 17px;
+}
+.fourthCardFooterHeading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+    width: 508px;
+    margin-left: 2px;
+}
+.fourthCardFooterSubject {
+    line-height: 22px;
+    padding-bottom: 15px;
+}
+.fourthCardFooterSubject > p {
+    font-family: 'Open sans',sans-serif;
+    font-size: 14px;
+}
+.fourthCardFooterSubject > p:first-child {
+    letter-spacing: 0.65px;
+}
+.fourthCardFooterSubject > p:nth-child(2) {
+    letter-spacing: 0.6px;
+}
+.fourthCardComment2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 20px;
+    align-items: center;
+}
+.fourthCardComment2Left {
+    display: flex;
+}
+.fourthCardComment2LeftImg {
+    margin-right: 5px;
+}
+.fourthCardComment2AuthorName {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px 5px 6px 7px;
+}
+.fourthCardComment2Date {
+    font-size: 12px;
+    color: #878787;
+    white-space: break-spaces;
+    letter-spacing: 0.65px;
+    margin-left: 5px;
+}
+
+.fourthCardComment2Right{
+    margin: 1px 2px 0 0;
+}
+
+/******************-------- Right Section ----------********/
+
 .sectionRight{
     width: calc(100% - (820px + 40px + (100% - 1170px)/2 + (100vw - 100%) / 2 ));
     background-color: white;
@@ -428,28 +774,38 @@
     position: absolute;
     right: 7px;
 }
-.firstCardComment2 {
+.categoryBox {
+    margin-top: 25px;
+}
+.categoryBoxHeader {
+    color: #3f51b5;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #3f51b5;
+    letter-spacing: 0.65px;
+}
+.categoryBoxContainer > div {
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 10px 20px 20px;
-    border: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
 }
-.firstCardComment2Left {
-    display: flex;
-}
-.firstCardComment2LeftImg {
-    margin-right: 5px;
-}
-.firstCardComment2AuthorName {
-    margin: 5px;
+.categoryBoxContainer > div > p {
+    font-family: 'Open sans',sans-serif;
     font-size: 14px;
-    font-weight: 700;
+    letter-spacing: 0.60px;
 }
-.firstCardComment2Date {
-    font-size: 12px;
-    color: #878787;
-    white-space: break-spaces;
-    letter-spacing: 0.65px;
-    margin-left: 3px;
+.categoryBoxContainer > div > p:nth-child(2) {
+    font-weight: bold;
+    letter-spacing: .65px;
+    margin-right: 3px;
+}
+.categoryPhotographyTitle {
+    margin-top: 2px;
+}
+.categoryVideography {
+    border-bottom: transparent !important;
 }
