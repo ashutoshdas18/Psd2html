@@ -1557,6 +1557,58 @@
 .tabPostWidgetChild1{
     padding-top: 20px !important;
 }
-
-/* ...
-... */
+.tabPostWidgetChildContainer>div>div:first-child{
+    height: 80px;
+    width: 100px;
+}
+.tabPostWidgetChildContainer>div>div:nth-child(2) {
+    width: 156px;
+    padding-left: 14px;
+}
+.tabPostWidgetChildContainer>div>div:nth-child(2)>div:first-child {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.tabPostWidgetChildContainer>div>div:nth-child(2)>div:first-child>p {
+    font-size: 12px;
+    line-height: 9px;
+    font-family: 'Open sans',sans-serif;
+}
+.tabPostWidgetChildContainer>div>div:nth-child(2)>div:first-child>div {
+    display: flex;
+    position: absolute;
+    right: 0;
+    width: 33px;
+    justify-content: space-between;
+    top: -3px;
+}
+.material-icons-outlined{
+    font-size: 16px !important;
+    color: #3f51b5;
+}
+.tabPostWidgetChildContainer>div>div:nth-child(2)>div:first-child>div>p {
+    font-size: 12px;
+    font-family: 'Open sans',sans-serif;
+}
+.tabPostWidgetChildContainer>div>div:nth-child(2)>div:last-child {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px;
+    letter-spacing: .65px;
+    white-space: normal;
+    font-family: 'Open sans',sans-serif;
+}
+.tabPostWidgetChild1Image{
+    background-image:url('./src/rightPostChild1Image.png');
+}
+.tabPostWidgetChild2Image{
+    background-image: url('./src/rightPostChild2.png');
+}
+.tabPostWidgetChild3Image{
+    background-image: url('./src/rightPostChild3.png');
+}
+.tabPostWidgetChild4Image{
+    background-image: url('./src/rightPostChild4.png');
+}
