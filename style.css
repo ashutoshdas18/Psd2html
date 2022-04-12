@@ -733,7 +733,7 @@
     margin: 1px 2px 0 0;
 }
 .fifthCard{
-    margin-top: 20px;
+    margin-top: 21px;
     display: flex;
     overflow: hidden;
 }
@@ -1557,26 +1557,25 @@
 .tabPostWidgetChild1{
     padding-top: 20px !important;
 }
-.tabPostWidgetChild1Image{
-    background-image: url('./src/rightPostChild1Image.png');
+.tabPostWidgetChildContainer>div>div:first-child{
     height: 80px;
     width: 100px;
 }
-.tabPostWidgetChild1Contents {
+.tabPostWidgetChildContainer>div>div:nth-child(2) {
     width: 156px;
     padding-left: 14px;
 }
-.tabPostWidgetChild1ContentsDateandComments {
+.tabPostWidgetChildContainer>div>div:nth-child(2)>div:first-child {
     display: flex;
     justify-content: space-between;
     position: relative;
 }
-.tabPostWidgetWidgetChild1ContentsDate {
+.tabPostWidgetChildContainer>div>div:nth-child(2)>div:first-child>p {
     font-size: 12px;
     line-height: 9px;
     font-family: 'Open sans',sans-serif;
 }
-.tabPostWidgetChild1ContentsComments {
+.tabPostWidgetChildContainer>div>div:nth-child(2)>div:first-child>div {
     display: flex;
     position: absolute;
     right: 0;
@@ -1588,11 +1587,11 @@
     font-size: 16px !important;
     color: #3f51b5;
 }
-.tabPostWidgetChild1ContentsCommentsCount {
+.tabPostWidgetChildContainer>div>div:nth-child(2)>div:first-child>div>p {
     font-size: 12px;
     font-family: 'Open sans',sans-serif;
 }
-.tabPostWidgetChild1ContentsSubject {
+.tabPostWidgetChildContainer>div>div:nth-child(2)>div:last-child {
     margin-top: 5px;
     font-size: 14px;
     font-weight: bold;
@@ -1601,138 +1600,51 @@
     white-space: normal;
     font-family: 'Open sans',sans-serif;
 }
-
+.tabPostWidgetChild1Image{
+    background-image:url('./src/rightPostChild1Image.png');
+}
 .tabPostWidgetChild2Image{
     background-image: url('./src/rightPostChild2.png');
-    height: 80px;
-    width: 100px;
 }
-.tabPostWidgetChild2Contents {
-    width: 156px;
-    padding-left: 14px;
-}
-.tabPostWidgetChild2ContentsDateandComments {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
-.tabPostWidgetWidgetChild1ContentsDate {
-    font-size: 12px;
-    line-height: 9px;
-    font-family: 'Open sans',sans-serif;
-}
-.tabPostWidgetChild2ContentsComments {
-    display: flex;
-    position: absolute;
-    right: 0;
-    width: 33px;
-    justify-content: space-between;
-    top: -3px;
-}
-.material-icons-outlined{
-    font-size: 16px !important;
-    color: #3f51b5;
-}
-.tabPostWidgetChild2ContentsCommentsCount {
-    font-size: 12px;
-    font-family: 'Open sans',sans-serif;
-}
-.tabPostWidgetChild2ContentsSubject {
-    margin-top: 5px;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 21px;
-    letter-spacing: .65px;
-    white-space: normal;
-    font-family: 'Open sans',sans-serif;
-}
-
 .tabPostWidgetChild3Image{
     background-image: url('./src/rightPostChild3.png');
-    height: 80px;
-    width: 100px;
 }
-.tabPostWidgetChild3Contents {
-    width: 156px;
-    padding-left: 14px;
-}
-.tabPostWidgetChild3ContentsDateandComments {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
-.tabPostWidgetWidgetChild1ContentsDate {
-    font-size: 12px;
-    line-height: 9px;
-    font-family: 'Open sans',sans-serif;
-}
-.tabPostWidgetChild3ContentsComments {
-    display: flex;
-    position: absolute;
-    right: 0;
-    width: 33px;
-    justify-content: space-between;
-    top: -3px;
-}
-.material-icons-outlined{
-    font-size: 16px !important;
-    color: #3f51b5;
-}
-.tabPostWidgetChild3ContentsCommentsCount {
-    font-size: 12px;
-    font-family: 'Open sans',sans-serif;
-}
-.tabPostWidgetChild3ContentsSubject {
-    margin-top: 5px;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 21px;
-    letter-spacing: .65px;
-    white-space: normal;
-    font-family: 'Open sans',sans-serif;
-}
-
 .tabPostWidgetChild4Image{
     background-image: url('./src/rightPostChild4.png');
-    height: 80px;
-    width: 100px;
 }
-.tabPostWidgetChild4Contents {
-    width: 156px;
-    padding-left: 14px;
+.tabPostWidgetChild4{
+    border-bottom: transparent !important;
 }
-.tabPostWidgetChild4ContentsDateandComments {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+.sectionRightTags{
+    width: 270px;
+    margin-top: 32px
 }
-.tabPostWidgetWidgetChild1ContentsDate {
-    font-size: 12px;
-    line-height: 9px;
-    font-family: 'Open sans',sans-serif;
-}
-.tabPostWidgetChild4ContentsComments {
-    display: flex;
-    position: absolute;
-    right: 0;
-    width: 33px;
-    justify-content: space-between;
-    top: -3px;
-}
-.material-icons-outlined{
-    font-size: 16px !important;
+.sectionRightTagsHeading {
+    font-size: 18px;
     color: #3f51b5;
-}
-.tabPostWidgetChild4ContentsCommentsCount {
-    font-size: 12px;
-    font-family: 'Open sans',sans-serif;
-}
-.tabPostWidgetChild4ContentsSubject {
-    margin-top: 5px;
-    font-size: 14px;
     font-weight: bold;
-    line-height: 21px;
-    letter-spacing: .65px;
-    white-space: normal;
-    font-family: 'Open sans',sans-serif;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #3f51b5;
+    padding-bottom: 5px;
 }
+.sectionRightTags>div{
+    display: inline-block;
+    font-family: 'Open sans';
+    font-size: 14px;
+    padding: 0 20px;
+    background-color: #e3e3e3;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 30px;
+    line-height: 27px;
+}
+.sectionRightTags>div:nth-child(7)
+{
+    margin-right: 10px;
+}
+.igSection {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
