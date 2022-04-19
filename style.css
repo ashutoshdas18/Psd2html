@@ -1825,4 +1825,122 @@
 }
 .footerBodyContent2Top > div > div:last-child > p > a:nth-child(2) {
     margin-left: 10px;
+}
+.footerBodyContent2BottomSocials {
+    margin-top: 12px;
+    width: 267px;
+    margin-left: -3px;
+}
+.footerBodyContent2BottomSocialsUL {
+    display: flex;
+    justify-content: space-between;
+}
+.footerBodyContent2BottomSocialsUL > li {
+    list-style-type: none;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 35px;
+}
+.footerBodyContent2BottomSocialsUL > li:first-child{
+    background-color: #3b5999;
+}
+.footerBodyContent2BottomSocialsUL > li:nth-child(2){
+    background-color: #55acee;
+}
+.footerBodyContent2BottomSocialsUL > li:nth-child(3){
+    background-color: #4c75a3;
+}
+.footerBodyContent2BottomSocialsUL > li:nth-child(4){
+    background-color: #ff2e56;
+}
+.footerBodyContent2BottomSocialsUL > li:nth-child(5){
+    background-color: #34465d;
+}
+.footerBodyContent2BottomSocialsUL > li:nth-child(6){
+    background-color: #ea4c89;
+}
+
+.footerBodyContent2BottomSocialsUL > li > a > i {
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+}
+.footerBodyContent2 > div:last-child > p {
+    margin-bottom: 16px !important;
+}
+.footerBodyContent3{
+    width: 272px;
+    margin-left: 27px;
+}
+.footerBodyContent3 > p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 26px;
+    margin-top: 3px;
+    letter-spacing: 0.65px;
+}
+.footerBodyContent3ImageContainer {
+    width: 100%;
+    height: 272px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.footerBodyContent3ImageContainer > img {
+    margin-right: 6px;
+    margin-bottom: 8px;
+}
+.footerBodyContent4{
+    width: 272px;
+    margin-left: 27px;
+}
+.footerBodyContent4 > p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 26px;
+    margin-top: 3px;
+    letter-spacing: 0.65px;
+}
+.footerBodyContent4InputContainer {
+    width: 272px;
+}
+.footerBodyContent4InputContainer > input {
+    width: 255px;
+    border: 1px solid #ffffff63;
+    background: none;
+    color: white;
+    padding-left: 15px;
+    font-family: 'Open sans';
+    height: 43px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.footerBodyContent4InputContainer>textarea{
+    background: none;
+    border: 1px solid #ffffff7a;
+    width: 255px;
+    height: 103px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Open sans';
+    padding-left: 15px;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.footerBodyContent4InputContainer > a {
+    display: inline-block;
+    width: 270px;
+    height: 41px;
+    background-color: #303030;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 2px;
   }
