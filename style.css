@@ -1708,18 +1708,22 @@
     font-size: 42px;
     font-weight: 900;
     letter-spacing: 0.9px;
-    margin-right: 15px;
+    margin-right: 21px;
 }
 .footerSubscribeEmail {
     height: 43px;
-    width: 260px;
+    width: 250px;
     background: none;
     border: 1px solid #e3e3e3;
     border-radius: 23px;
     color: white;
-    padding-left: 10px;
+    padding-left: 20px;
     margin-right: 10px;
     font-size: 16px;
+    margin-top: 3px;
+    font-family: 'Open sans';
+    font-size: 16px;
+    letter-spacing: 0.65px;
 }
 .footerSubscribeButton {
     height: 45px;
@@ -1730,6 +1734,8 @@
     font-size: 16px;
     text-transform: uppercase;
     border-radius: 23px;
+    margin-top: 3px;
+    letter-spacing: 0.65px;
 }
 .footerBody{
     width: 100%;
@@ -1814,9 +1820,10 @@
 .footerBodyContent2>div>p{
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 23px;
-    margin-top: 3px;
+    margin-bottom: 21px;
+    margin-top: 4px;
     letter-spacing: 0.65px;
+
 }
 .footerBodyContent2Top>div {
     height: 75px;
@@ -1920,8 +1927,8 @@
 .footerBodyContent3 > p {
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 26px;
-    margin-top: 3px;
+    margin-bottom: 27px;
+    margin-top: 4px;
     letter-spacing: 0.65px;
 }
 .footerBodyContent3ImageContainer {
@@ -1931,18 +1938,18 @@
     grid-template-columns: auto auto auto;
 }
 .footerBodyContent3ImageContainer > img {
-    margin-right: 6px;
+    margin-right: 8px;
     margin-bottom: 8px;
 }
 .footerBodyContent4{
-    width: 272px;
-    margin-left: 27px;
+    width: 270px;
+    margin-left: 28px;
 }
 .footerBodyContent4 > p {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 26px;
-    margin-top: 3px;
+    margin-top: 4px;
     letter-spacing: 0.65px;
 }
 .footerBodyContent4InputContainer {
@@ -1958,18 +1965,21 @@
     height: 43px;
     margin-bottom: 10px;
     border-radius: 5px;
+    letter-spacing: 0.65px;
+    word-spacing: 2px;
 }
 .footerBodyContent4InputContainer>textarea{
     background: none;
     border: 1px solid #ffffff7a;
     width: 255px;
-    height: 103px;
+    height: 104px;
     border-radius: 5px;
     color: white;
     font-family: 'Open sans';
     padding-left: 15px;
     font-size: 14px;
-    padding-top: 15px;
+    padding-top: 14px;
+    letter-spacing: 0.65px;
 }
 .footerBodyContent4InputContainer > a {
     display: inline-block;
@@ -1977,7 +1987,7 @@
     height: 41px;
     background-color: #303030;
     text-align: center;
-    line-height: 45px;
+    line-height: 42px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -1985,4 +1995,5 @@
     font-size: 12px;
     font-weight: bold;
     margin-left: 2px;
+    letter-spacing: 0.65px;
   }
